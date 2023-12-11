@@ -3,7 +3,7 @@
 
 **PlatYi-34B project; Purpose is `the global LLM rank 1.`**    
 I noted that all most of things about the PlatYi models.  
-So, please give me a star⭐~~!!  
+⭐So, please give me a star⭐~~!!  
 
 I hope, the opensource more and more develop!😄😄  
 
@@ -21,13 +21,13 @@ I hope, the opensource more and more develop!😄😄
 # Introduction
 - Recently, I create the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Korean LLM Rank 1`.  
 - I wanted to take it a step further and make the global number one as well!!  
-- So, using [Yi-34B](https://huggingface.co/01-ai/Yi-34B) based LLM, I tried fine-tuning.  
+- So, using [Yi-34B](https://huggingface.co/01-ai/Yi-34B) based LLM, I tried fine-tuning😓.  
 - Through a lot of trial and error, I found my way.  
-- **This repository almost releases the knowledge base for that model!!**  
+- **This repository almost releases the knowledge base for that model!!😚😚**  
 - (Because, I love opensource.)  
    
 # News
-(Coming soon...)
+(Coming soon...)🤗🤗
 
 # Model Performance
 | Model | Average | ARC | HellaSwag | MMLU | TruthfulQA | Winogrande | GSM8K |
@@ -39,7 +39,7 @@ I hope, the opensource more and more develop!😄😄
 > Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).  
 
 # Hyperparameters & Prompt
-- PlatYi-34B-Llama-Q
+- 😎PlatYi-34B-Llama-Q
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
 |---------------------|--------|
 | LoRA method         | LoRA   |
@@ -59,6 +59,7 @@ I hope, the opensource more and more develop!😄😄
 | train on inputs     | False  |
 | group by length     | False  |
 | add eos token       | False  |
+| Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
 ```
 {
     "description": "Template used by Alpaca-LoRA.",
@@ -69,7 +70,7 @@ I hope, the opensource more and more develop!😄😄
 ```
 > [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
   
-- PlatYi-34B-Q
+- 😎PlatYi-34B-Q
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
 |---------------------|--------|
 | LoRA method         | LoRA   |
@@ -89,6 +90,7 @@ I hope, the opensource more and more develop!😄😄
 | train on inputs     | False  |
 | group by length     | False  |
 | add eos token       | False  |
+| Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
 ```
 {
     "description": "Template used by Alpaca-LoRA.",
@@ -100,7 +102,7 @@ I hope, the opensource more and more develop!😄😄
 > [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
   
 # Some Insight
-(Coming soon)
+(Coming soon)🤩🤩
 
 # TODO
 - [ ] Share code
