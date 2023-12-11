@@ -71,8 +71,8 @@ I hope, the opensource more and more develop!😄😄
     "response_split": "### Response:"    
 }
 ```
-> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
-  
+> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)
+---  
 - 😎PlatYi-34B-Q
   
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
@@ -104,7 +104,7 @@ I hope, the opensource more and more develop!😄😄
 }
 ```
 > [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)
-
+---  
 - 😎PlatYi-34B-LoRA
   
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
