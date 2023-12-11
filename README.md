@@ -1,5 +1,5 @@
 # PlatYi-34
-![PlatYi](./PlatYi.png)    
+<img src='./PlatYi.png' width=256>    
 **PlatYi-34B project; Purpose is `the global LLM rank 1.`**  
 I noted that all most of things about the PlatYi models.  
 So, please give me a star⭐~~!!  
@@ -38,9 +38,11 @@ I hope, the opensource more and more develop!😄😄
 > Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).  
 
 # Hyperparameters & Prompt
-- PlatYi-34B-Llama-Q  
+- PlatYi-34B-Llama-Q
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
 |---------------------|--------|
+| LoRA method         | LoRA   |
+| load_in_4bit        | True   |
 | learning rate       | 3e-4   |
 | batch size          | 16     |
 | microbatch  size    | 1      |
@@ -64,11 +66,13 @@ I hope, the opensource more and more develop!😄😄
     "response_split": "### Response:"    
 }
 ```
-> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)
+> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
   
-- PlatYi-34B-Q  
+- PlatYi-34B-Q
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
 |---------------------|--------|
+| LoRA method         | LoRA   |
+| load_in_4bit        | True   |
 | learning rate       | 4e-4   |
 | batch size          | 16     |
 | microbatch  size    | 1      |
@@ -92,7 +96,7 @@ I hope, the opensource more and more develop!😄😄
     "response_split": "### Response:"    
 }
 ```
-> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)
+> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
   
 # Some Insight
 (Coming soon)
