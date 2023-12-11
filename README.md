@@ -1,6 +1,7 @@
 # PlatYi-34
 <img src='./PlatYi.png' width=256>    
-**PlatYi-34B project; Purpose is `the global LLM rank 1.`**  
+
+**PlatYi-34B project; Purpose is `the global LLM rank 1.`**    
 I noted that all most of things about the PlatYi models.  
 So, please give me a star⭐~~!!  
 
