@@ -75,7 +75,7 @@ I hope, the opensource more and more develop!😄😄
 ---  
 - 😎PlatYi-34B-Q
   
-| Hyperparameter      | PlatYi-34B-Llama-Q  |
+| Hyperparameter      | PlatYi-34B-Q  |
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_4bit        | True   |
@@ -107,7 +107,7 @@ I hope, the opensource more and more develop!😄😄
 ---  
 - 😎PlatYi-34B-LoRA
   
-| Hyperparameter      | PlatYi-34B-Llama-Q  |
+| Hyperparameter      | PlatYi-34B-LoRA  |
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_8bit        | True   |
