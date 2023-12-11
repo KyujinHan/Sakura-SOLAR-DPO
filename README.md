@@ -28,7 +28,7 @@ I hope, the opensource more and more develop!😄😄
 - In this project, I only used the **instruction-tuning with PEFT.** Because I want to show that `LoRA is very powerful, also the platypus method is also good!`.
 - (And also, `LoRA is very simply`, is it right?😄)  
 - **This repository almost releases the knowledge base for that model!!😚😚**  
-- (Because, I love opensource.)  
+- (Because, I love opensource.❤️)  
    
 # News
 (Coming soon...)🤗🤗
