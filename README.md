@@ -8,10 +8,10 @@ I noted that all most of things about the PlatYi models, which is `the global LL
 I hope, the opensource more and more develop!😄😄  
 
 # Contents  
-- [Model Performance]
-- [Hyperparameters & Prompt]
-- [Some Insight]
-- [References]
+- [Model Performance](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#model-performance)  
+- [Hyperparameters & Prompt](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#hyperparameters--prompt)  
+- [Some Insight](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#some-insight)  
+- [References](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#references)  
   
 # (Quick) Model lists
 - (Coming soon...)
