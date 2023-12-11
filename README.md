@@ -24,7 +24,8 @@ I hope, the opensource more and more develop!😄😄
 - I wanted to take it a step further and make the global number one as well!!  
 - So, using [Yi-34B](https://huggingface.co/01-ai/Yi-34B) based LLM, I tried fine-tuning😓.  
 - Through a lot of trial and error, I found my way.
-- In this project, I only used the **instruction-tuning with PEFT.** Because I want to show that `LoRA is very powerful, also the platypus method is good!`.
+- Recently, all most of model used DPO.  
+- In this project, I only used the **instruction-tuning with PEFT.** Because I want to show that `LoRA is very powerful, also the platypus method is also good!`.
 - (And also, `LoRA is very simply`, is it right?😄)  
 - **This repository almost releases the knowledge base for that model!!😚😚**  
 - (Because, I love opensource.)  
