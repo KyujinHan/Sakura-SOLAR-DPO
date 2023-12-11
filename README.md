@@ -40,6 +40,7 @@ I hope, the opensource more and more develop!😄😄
 
 # Hyperparameters & Prompt
 - 😎PlatYi-34B-Llama-Q
+   
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
 |---------------------|--------|
 | LoRA method         | LoRA   |
@@ -71,6 +72,7 @@ I hope, the opensource more and more develop!😄😄
 > [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
   
 - 😎PlatYi-34B-Q
+  
 | Hyperparameter      | PlatYi-34B-Llama-Q  |
 |---------------------|--------|
 | LoRA method         | LoRA   |
