@@ -20,7 +20,7 @@ I hope, the opensource more and more develop!😄😄
 - [PlatYi-34B-LoRA](https://huggingface.co/kyujinpy/PlatYi-34B-LoRA)
 
 # Introduction
-- Recently, I create the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Korean LLM Rank 1`.  
+- Recently, I created the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Korean LLM Rank 1`.  
 - I wanted to take it a step further and make the global number one as well!!  
 - So, using [Yi-34B](https://huggingface.co/01-ai/Yi-34B) based LLM, I tried fine-tuning😓.  
 - Through a lot of trial and error, I found my way.
