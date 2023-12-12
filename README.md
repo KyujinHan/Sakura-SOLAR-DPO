@@ -89,7 +89,7 @@ I hope, the opensource more and more develop!😄😄
 | epochs              | 1      |
 | weight decay        | 0.     |
 | lr scheduler        | cosine |
-| lora alpha          | 64     |
+| lora alpha          | 16     |
 | lora rank           | 16     |
 | lora dropout        | 0.05   |
 | lora target modules | gate_proj, up_proj, down_proj |
