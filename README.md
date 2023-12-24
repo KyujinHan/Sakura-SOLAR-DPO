@@ -43,7 +43,7 @@ I hope, the opensource more and more develop!😄😄
 | load_in_8bit        | True   |
 | learning rate       | 1e-6   |
 | batch size          | 32     |
-| microbatch  size    | 2      |
+| micro batch size    | 2      |
 | warmup ratio        | 0.1    |
 | epochs              | 1      |
 | weight decay        | 0.     |
@@ -52,7 +52,8 @@ I hope, the opensource more and more develop!😄😄
 | lora rank           | 16     |
 | lora dropout        | 0.05   |
 | beta                | 0.1    |
-| optim               | adamw  |
+| optim               | adamw_torch |
+| bf16                | True   |
 | lora target modules | `embed_tokens, q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj, lm_head` |
 | cutoff length       | 4096   |
 | Datasets            | [argilla/distilabel-math-preference-dpo](https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo) |  
@@ -70,9 +71,9 @@ I hope, the opensource more and more develop!😄😄
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_8bit        | True   |
-| learning rate       | 3e-7   |
+| learning rate       | 1e-6   |
 | batch size          | 32     |
-| microbatch  size    | 2      |
+| micro batch size    | 2      |
 | warmup ratio        | 0.1    |
 | epochs              | 1      |
 | weight decay        | 0.     |
@@ -81,7 +82,8 @@ I hope, the opensource more and more develop!😄😄
 | lora rank           | 16     |
 | lora dropout        | 0.05   |
 | beta                | 0.1    |
-| optim               | adamw  |
+| optim               | paged_adamw_32bit |
+| fp32                | True   |
 | lora target modules | `embed_tokens, q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj, lm_head` |
 | cutoff length       | 4096   |
 | Datasets            | [argilla/distilabel-math-preference-dpo](https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo) |  
