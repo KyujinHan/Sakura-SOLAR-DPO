@@ -1,10 +1,11 @@
 # Sakura-SOLAR-DPO  
+<img src='./sakura.png' width=512>
 
-**Sakura-SOLAR project; Purpose is `the global LLM rank 1.`**    
-I noted that all most of things about the PlatYi models, which is `the global LLM Rank 1 on December, 2023`.  
+**Sakura-SOLAR project;**    
+I noted that all most of things about the **Sakura-SOLAR models** which is `the global LLM Rank 1 on December, 2023`.  
 ⭐So, please give me a star⭐~~!!   
 
-I hope, the opensource more and more develop!😄😄  
+I hope, the open-source more and more develop!😄😄  
 
 # Contents  
 - [Model Performance](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#model-performance)  
