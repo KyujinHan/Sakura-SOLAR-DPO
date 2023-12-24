@@ -94,6 +94,35 @@ I hope, the open-source more and more develop!😄😄
 
 ### Assistant:
 ```
+---
+- 😎kyujinpy/Sakura-SOLRCA-Instruct-Dpo
+  
+| Hyperparameter      | kyujinpy/Sakura-SOLRCA-Instruct-Dpo |
+|---------------------|--------|
+| LoRA method         | LoRA   |
+| load_in_8bit        | True   |
+| learning rate       | 5e-7   |
+| batch size          | 32     |
+| micro batch size    | 2      |
+| warmup ratio        | 0.1    |
+| epochs              | 1      |
+| weight decay        | 0.     |
+| lr scheduler        | linear |
+| lora alpha          | 16     |
+| lora rank           | 16     |
+| lora dropout        | 0.05   |
+| beta                | 0.1    |
+| optim               | paged_adamw_32bit |
+| bf16                | True   |
+| lora target modules | `embed_tokens, q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj, lm_head` |
+| cutoff length       | 4096   |
+| Datasets            | [Intel/orca_dpo_pairs](https://huggingface.co/datasets/Intel/orca_dpo_pairs) |  
+| Base Model          | [kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct) |
+```
+### User:
+
+### Assistant:
+```
 > Prompting
   
 # Some Insight
