@@ -1,7 +1,6 @@
-# PlatYi-34B
-<img src='./PlatYi.png' width=256>    
+# Sakura-SOLAR-DPO  
 
-**PlatYi-34B project; Purpose is `the global LLM rank 1.`**    
+**Sakura-SOLAR project; Purpose is `the global LLM rank 1.`**    
 I noted that all most of things about the PlatYi models, which is `the global LLM Rank 1 on December, 2023`.  
 ⭐So, please give me a star⭐~~!!   
 
@@ -15,20 +14,9 @@ I hope, the opensource more and more develop!😄😄
   
 # (Quick) Model lists
 - (Coming soon...)
-- [PlatYi-34B-Llama-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q)  
-- [PlatYi-34B-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Q)
-- [PlatYi-34B-LoRA](https://huggingface.co/kyujinpy/PlatYi-34B-LoRA)
 
 # Introduction
 - Recently, I created the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Korean LLM Rank 1`.  
-- I wanted to take it a step further and make the global number one as well!!  
-- So, using [Yi-34B](https://huggingface.co/01-ai/Yi-34B) based LLM, I tried fine-tuning😓.  
-- Through a lot of trial and error, I found my way.
-- Recently, all most of model applied DPO, MoE, etc... But I want to prove that `pure instruction-tuning method with LoRA can reach Rank 1, in December, 2023.`
-- In this project, I only used the **instruction-tuning with PEFT.** Because I want to show that `LoRA is very powerful, also the platypus method is also good!`.
-- (And also, `LoRA is very simply`, is it right?😄)  
-- **This repository almost releases the knowledge base for that model!!😚😚**  
-- (Because, I love opensource.❤️)  
    
 # News
 (Coming soon...)🤗🤗
@@ -44,20 +32,25 @@ I hope, the opensource more and more develop!😄😄
 > Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).  
 
 # Hyperparameters & Prompt
-- 😎PlatYi-34B-Llama-Q
+- 😎kyujinpy/Sakura-SOLAR-Instruct
+```
+(merge information)
+```
+---
+- 😎kyujinpy/Sakura-SOLAR-Instruct-DPO-v1
    
-| Hyperparameter      | PlatYi-34B-Llama-Q  |
+| Hyperparameter      | kyujinpy/Sakura-SOLAR-Instruct-DPO-v1 |
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_4bit        | True   |
-| learning rate       | 3e-4   |
+| learning rate       | 2e-5   |
 | batch size          | 16     |
 | microbatch  size    | 1      |
 | warmup steps        | 100    |
 | epochs              | 1      |
 | weight decay        | 0.     |
 | lr scheduler        | cosine |
-| lora alpha          | 64     |
+| lora alpha          | 16     |
 | lora rank           | 16     |
 | lora dropout        | 0.05   |
 | lora target modules | gate_proj, up_proj, down_proj |
@@ -67,18 +60,14 @@ I hope, the opensource more and more develop!😄😄
 | add eos token       | False  |
 | Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
 ```
-{
-    "description": "Template used by Alpaca-LoRA.",
-    "prompt_input": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n",
-    "prompt_no_input": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:\n",
-    "response_split": "### Response:"    
-}
+### User:
+
+### Assistant: 
 ```
-> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)
 ---  
-- 😎PlatYi-34B-Q
+- 😎kyujinpy/Sakura-SOLAR-Instruct-DPO-v2
   
-| Hyperparameter      | PlatYi-34B-Q  |
+| Hyperparameter      | kyujinpy/Sakura-SOLAR-Instruct-DPO-v2 |
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_4bit        | True   |
@@ -99,47 +88,11 @@ I hope, the opensource more and more develop!😄😄
 | add eos token       | False  |
 | Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
 ```
-{
-    "description": "Template used by Alpaca-LoRA.",
-    "prompt_input": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n",
-    "prompt_no_input": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:\n",
-    "response_split": "### Response:"    
-}
+### User:
+
+### Assistant:
 ```
-> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)
----  
-- 😎PlatYi-34B-LoRA
-  
-| Hyperparameter      | PlatYi-34B-LoRA  |
-|---------------------|--------|
-| LoRA method         | LoRA   |
-| load_in_8bit        | True   |
-| learning rate       | 4e-4   |
-| batch size          | 16     |
-| microbatch  size    | 1      |
-| warmup steps        | 0      |
-| epochs              | 1      |
-| weight decay        | 0.     |
-| lr scheduler        | cosine |
-| lora alpha          | 16     |
-| lora rank           | 16     |
-| lora dropout        | 0.05   |
-| lora target modules | gate_proj, up_proj, down_proj |
-| cutoff length       | 4096   |
-| train on inputs     | False  |
-| group by length     | False  |
-| add eos token       | False  |
-| Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
-```
-{
-    "description": "Template used by Alpaca-LoRA.",
-    "prompt_input": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Input:\n{input}\n\n### Response:\n",
-    "prompt_no_input": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\n{instruction}\n\n### Response:\n",
-    "response_split": "### Response:"    
-}
-```
-> [Alpaca templates.](https://github.com/arielnlee/Platypus/blob/main/templates/alpaca.json)  
-  
+   
 # Some Insight
 (Coming soon)🤩🤩
 
@@ -150,7 +103,5 @@ I hope, the opensource more and more develop!😄😄
 - [ ] Share datasets
 
 # References
-- [Yi-34B](https://huggingface.co/01-ai/Yi-34B)  
-- [Yi-34B-Llama](https://huggingface.co/chargoddard/Yi-34B-Llama)  
 - [Platypus](https://platypus-llm.github.io/)  
 - [Ko-platypus](https://github.com/Marker-Inc-Korea/KO-Platypus)  
