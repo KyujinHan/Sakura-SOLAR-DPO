@@ -25,16 +25,14 @@ I hope, the opensource more and more develop!😄😄
 | Model | Average | ARC | HellaSwag | MMLU | TruthfulQA | Winogrande | GSM8K |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [PlatYi-34B-Llama-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q) | 71.13 | 65.70 | 85.22 | 78.78 | 53.64 | 83.03 | 60.42 |
-| [PlatYi-34B-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Q) | 69.86 | 66.89 | 85.14 | 77.66 | 53.03 | 82.48 | 53.98 |
-| [PlatYi-34B-LoRA](https://huggingface.co/kyujinpy/PlatYi-34B-LoRA) | 68.1 | 67.15 | 85.37 | 78.46 | 53.32 | 83.66 | 40.64 |  
-| [Yi-34B-Llama](https://huggingface.co/chargoddard/Yi-34B-Llama) | 70.95 | 64.59 | 85.63 | 76.31 | 55.60 | 82.79 | 60.80 |
 | [Yi-34B](https://huggingface.co/01-ai/Yi-34B) | 69.42 | 64.59 | 85.69 | 76.35 | 56.23 | 83.03 | 50.64 |
+| [SOLAR-10.7B-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-v1.0) | 660.4 | 61.95 | 84.60 | 65.48 | 45.04 | 83.66 | 55.50 |
 > Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).  
 
 # Hyperparameters & Prompt
 - 😎kyujinpy/Sakura-SOLAR-Instruct
 ```
-(merge information)
+(Coming soon...)
 ```
 ---
 - 😎kyujinpy/Sakura-SOLAR-Instruct-DPO-v1
@@ -42,57 +40,59 @@ I hope, the opensource more and more develop!😄😄
 | Hyperparameter      | kyujinpy/Sakura-SOLAR-Instruct-DPO-v1 |
 |---------------------|--------|
 | LoRA method         | LoRA   |
-| load_in_4bit        | True   |
-| learning rate       | 2e-5   |
-| batch size          | 16     |
-| microbatch  size    | 1      |
-| warmup steps        | 100    |
+| load_in_8bit        | True   |
+| learning rate       | 1e-6   |
+| batch size          | 32     |
+| microbatch  size    | 2      |
+| warmup ratio        | 0.1    |
 | epochs              | 1      |
 | weight decay        | 0.     |
-| lr scheduler        | cosine |
+| lr scheduler        | linear |
 | lora alpha          | 16     |
 | lora rank           | 16     |
 | lora dropout        | 0.05   |
-| lora target modules | gate_proj, up_proj, down_proj |
+| beta                | 0.1    |
+| optim               | adamw  |
+| lora target modules | `embed_tokens, q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj, lm_head` |
 | cutoff length       | 4096   |
-| train on inputs     | False  |
-| group by length     | False  |
-| add eos token       | False  |
-| Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
+| Datasets            | [argilla/distilabel-math-preference-dpo](https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo) |  
+| Base Model          | [kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct) |
 ```
 ### User:
 
 ### Assistant: 
 ```
+> Prompting  
 ---  
 - 😎kyujinpy/Sakura-SOLAR-Instruct-DPO-v2
   
 | Hyperparameter      | kyujinpy/Sakura-SOLAR-Instruct-DPO-v2 |
 |---------------------|--------|
 | LoRA method         | LoRA   |
-| load_in_4bit        | True   |
-| learning rate       | 4e-4   |
-| batch size          | 16     |
-| microbatch  size    | 1      |
-| warmup steps        | 0      |
+| load_in_8bit        | True   |
+| learning rate       | 3e-7   |
+| batch size          | 32     |
+| microbatch  size    | 2      |
+| warmup ratio        | 0.1    |
 | epochs              | 1      |
 | weight decay        | 0.     |
-| lr scheduler        | cosine |
+| lr scheduler        | linear |
 | lora alpha          | 16     |
 | lora rank           | 16     |
 | lora dropout        | 0.05   |
-| lora target modules | gate_proj, up_proj, down_proj |
+| beta                | 0.1    |
+| optim               | adamw  |
+| lora target modules | `embed_tokens, q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj, lm_head` |
 | cutoff length       | 4096   |
-| train on inputs     | False  |
-| group by length     | False  |
-| add eos token       | False  |
-| Datasets            | [Open-Platypus](https://huggingface.co/datasets/garage-bAInd/Open-Platypus) |  
+| Datasets            | [argilla/distilabel-math-preference-dpo](https://huggingface.co/datasets/argilla/distilabel-math-preference-dpo) |  
+| Base Model          | [kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct) |
 ```
 ### User:
 
 ### Assistant:
 ```
-   
+> Prompting
+  
 # Some Insight
 (Coming soon)🤩🤩
 
