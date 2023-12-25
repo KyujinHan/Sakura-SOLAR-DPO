@@ -103,7 +103,7 @@ I hope, the open-source more and more develop!😄😄
 | load_in_8bit        | True   |
 | learning rate       | 5e-7   |
 | batch size          | 32     |
-| micro batch size    | 2      |
+| micro batch size    | 1      |
 | warmup ratio        | 0.1    |
 | epochs              | 1      |
 | weight decay        | 0.     |
