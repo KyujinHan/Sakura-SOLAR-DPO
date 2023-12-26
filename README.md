@@ -27,7 +27,7 @@ I hope, the open-source more and more develop!😄😄
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | [PlatYi-34B-Llama-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q) | 71.13 | 65.70 | 85.22 | 78.78 | 53.64 | 83.03 | 60.42 |
 | [Yi-34B](https://huggingface.co/01-ai/Yi-34B) | 69.42 | 64.59 | 85.69 | 76.35 | 56.23 | 83.03 | 50.64 |
-| [SOLAR-10.7B-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-v1.0) | 660.4 | 61.95 | 84.60 | 65.48 | 45.04 | 83.66 | 55.50 |
+| [SOLAR-10.7B-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-v1.0) | 66.04 | 61.95 | 84.60 | 65.48 | 45.04 | 83.66 | 55.50 |
 > Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).  
 
 # Hyperparameters & Prompt
