@@ -145,7 +145,7 @@ dtype: float16
 ---
 - `😎kyujinpy/Sakura-SOLRCA-Math-Instruct-Dpo-v1`
   
-| Hyperparameter      | kyujinpy/Sakura-SOLRCA-Instruct-Dpo |
+| Hyperparameter      | kyujinpy/Sakura-SOLRCA-Math-Instruct-Dpo-v1 |
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_8bit        | True   |
@@ -174,7 +174,7 @@ dtype: float16
 ---
 - `😎kyujinpy/Sakura-SOLRCA-Math-Instruct-Dpo-v2`
   
-| Hyperparameter      | kyujinpy/Sakura-SOLRCA-Instruct-Dpo |
+| Hyperparameter      | kyujinpy/Sakura-SOLRCA-Math-Instruct-Dpo-v2 |
 |---------------------|--------|
 | LoRA method         | LoRA   |
 | load_in_8bit        | True   |
