@@ -33,7 +33,26 @@ I hope, the open-source more and more develop!😄😄
 # Hyperparameters & Prompt
 - 😎kyujinpy/Sakura-SOLAR-Instruct
 ```
-(Coming soon...)
+slices:
+  - sources:
+      - model: VAGOsolutions/SauerkrautLM-SOLAR-Instruct
+        layer_range: [0, 48]
+      - model: upstage/SOLAR-10.7B-Instruct-v1.0
+        layer_range: [0, 48]
+        
+merge_method: slerp
+base_model: upstage/SOLAR-10.7B-Instruct-v1.0
+
+parameters:
+  t:
+    - filter: self_attn
+      value: [0, 0.5, 0.3, 0.7, 1]
+    - filter: mlp
+      value: [1, 0.5, 0.7, 0.3, 0]
+    - value: 0.5 # fallback for rest of tensors
+tokenizer_source: union
+    
+dtype: float16
 ```
 ---
 - 😎kyujinpy/Sakura-SOLAR-Instruct-DPO-v1
