@@ -249,4 +249,5 @@ dtype: float16
   
 # References
 - [Platypus](https://platypus-llm.github.io/)  
-- [Ko-platypus](https://github.com/Marker-Inc-Korea/KO-Platypus)  
+- [upstage/SOLAR-10.7B-Instruct-v1.0](upstage/SOLAR-10.7B-Instruct-v1.0)  
+- [VAGOsolutions/SauerkrautLM-SOLAR-Instruct](https://huggingface.co/VAGOsolutions/SauerkrautLM-SOLAR-Instruct)  
