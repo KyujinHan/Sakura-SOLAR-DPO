@@ -23,7 +23,7 @@ I hope, the open-source more and more develop!😄😄
 
 # Introduction
 - I created the [🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct) LLM, which is `Open LLM Rank 1`.
-- **I loved open-source, I wanted to share everything about the model that won first rank.**
+- **I love open-source, I want to share everything about the model that won first rank.**
 - I hope this GitHub helps a lot of people.😎😎
      
 # News 
