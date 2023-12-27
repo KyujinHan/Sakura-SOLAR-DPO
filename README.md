@@ -22,8 +22,7 @@ I hope, the open-source more and more develop!😄😄
 - [🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2📐](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2)
 
 # Introduction
-- Recently, I created the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Open-Ko LLM Rank 1`.
-- Also, I created the [🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct) LLM, which is `Open LLM Rank 1`.
+- I created the [🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct) LLM, which is `Open LLM Rank 1`.
 - **I loved open-source, I wanted to share everything about the model that won first rank.**
 - I hope this GitHub helps a lot of people.😎😎
      
