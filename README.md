@@ -14,13 +14,20 @@ I hope, the open-source more and more develop!😄😄
 - [References](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#references)  
   
 # (Quick) Model lists
-- (Coming soon...)
+- [🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct)
+- [🌸kyujinpy/Sakura-SOLAR-Instruct-DPO-v1](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct-DPO-v1)
+- [🌸kyujinpy/Sakura-SOLAR-Instruct-DPO-v2](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct-DPO-v2)
+- [🌸kyujinpy/Sakura-SOLRCA-Instruct-DPO🐋](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Instruct-DPO)
+- [🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1📐](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1)
+- [🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2📐](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2)
 
 # Introduction
-- Recently, I created the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Korean LLM Rank 1`.  
+- Recently, I created the [Ko-platypus🥮](https://github.com/Marker-Inc-Korea/KO-Platypus) LLM, which was `Korean LLM Rank 1`.
+-  
    
 # News
-(Coming soon...)🤗🤗
+- 2023.12.28
+    - **Rank1** (Open LLM leaderboard): **🌸kyujinpy/Sakura-SOLAR-Instruct** 
 
 # Model Performance
 | Model | Average | ARC | HellaSwag | MMLU | TruthfulQA | Winogrande | GSM8K |
@@ -200,7 +207,7 @@ dtype: float16
 ### User:
 
 ### Assistant:
-```
+```  
 > Prompting
   
 # Some Insight
@@ -208,9 +215,9 @@ dtype: float16
 
 # TODO
 - [ ] Share code
-- [ ] Share hyperparameters
+- [x] Share hyperparameters
 - [ ] Share insight
-- [ ] Share datasets
+- [x] Share datasets
 
 # References
 - [Platypus](https://platypus-llm.github.io/)  
