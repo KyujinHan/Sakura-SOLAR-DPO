@@ -33,6 +33,7 @@ I hope, the open-source more and more develop!😄😄
 # Model Performance
 | Model | Average | ARC | HellaSwag | MMLU | TruthfulQA | Winogrande | GSM8K |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| **[🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct)** | 74.40 | 70.99 | 88.42 | 66.33 | 71.79 | 83.66 | 65.20 |
 | [SOLAR-10.7B-Instruct-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0) | 74.20 | 71.08 | 88.16 | 66.21 | 71.43 | 83.58 | 64.75 |
 | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 72.62 | 70.22 | 87.63 | 71.16 | 64.58 | 81.37 | 60.73 |
 | [PlatYi-34B-Llama-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q) | 71.13 | 65.70 | 85.22 | 78.78 | 53.64 | 83.03 | 60.42 |
