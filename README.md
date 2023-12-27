@@ -8,9 +8,9 @@ I noted that all most of things about the **Sakura-SOLAR models** which is `the 
 I hope, the open-source more and more develop!😄😄   
 
 # Contents  
-- [Model Performance](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#model-performance)  
+- [Model Performance](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#model-performance)
+- [Training code]()
 - [Hyperparameters & Prompt](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#hyperparameters--prompt)  
-- [Some Insight](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#some-insight)  
 - [References](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#references)  
   
 # (Quick) Model lists
@@ -38,8 +38,38 @@ I hope, the open-source more and more develop!😄😄
 | [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 72.62 | 70.22 | 87.63 | 71.16 | 64.58 | 81.37 | 60.73 |
 | [PlatYi-34B-Llama-Q](https://huggingface.co/kyujinpy/PlatYi-34B-Llama-Q) | 71.13 | 65.70 | 85.22 | 78.78 | 53.64 | 83.03 | 60.42 |
 | [Yi-34B](https://huggingface.co/01-ai/Yi-34B) | 69.42 | 64.59 | 85.69 | 76.35 | 56.23 | 83.03 | 50.64 |
-> Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).  
+> Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
+# Training code
+## 1. Merge
+1. First, donwload [mergekit](https://github.com/cg123/mergekit).
+2. Implement below command for merge.
+```
+# Example)
+mergekit-yaml ./config.yml ./Sakura-SOLAR [--cuda]
+```
+---
+## 2. DPO
+Implement below code for dpo.
+```python
+# Example)
+python DPO.py \
+    --base_model kyujinpy/Sakura-SOLAR-Instruct \
+    --data-path  kyujinpy/orca_math_dpo \
+    --output_dir [...output_dir...] \
+    --num_epochs [...epoch...] \
+    --batch_size [...batch_size...] \
+    --micro_batch_size [...micro_batch...] \
+    --learning_rate [...learning_rate...] \
+    --lora_r 16 \
+    --lora_alpha 16 \
+    --lora_dropout 0.05 \
+    --lora_target_modules [...target_modules...] \
+    --lr_scheduler 'linear' \
+    --warmup_ratio 0.1 \
+    --cutoff_len 4096 \
+```
+  
 # Hyperparameters & Prompt
 - `😎kyujinpy/Sakura-SOLAR-Instruct`
 ```
@@ -211,16 +241,12 @@ dtype: float16
 ### Assistant:
 ```  
 > Prompting
-  
-# Some Insight
-(Coming soon)🤩🤩
-
+   
 # TODO
-- [ ] Share code
+- [x] Share code
 - [x] Share hyperparameters
-- [ ] Share insight
 - [x] Share datasets
-
+  
 # References
 - [Platypus](https://platypus-llm.github.io/)  
 - [Ko-platypus](https://github.com/Marker-Inc-Korea/KO-Platypus)  
