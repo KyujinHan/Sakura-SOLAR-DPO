@@ -255,6 +255,8 @@ dtype: float16
 - [x] Share datasets
   
 # References
-- [Platypus](https://platypus-llm.github.io/)  
+- [Platypus](https://platypus-llm.github.io/)
+- [DPO code](https://github.com/mzbac/llama2-fine-tune)
+- [Mergekit](https://github.com/cg123/mergekit)  
 - [upstage/SOLAR-10.7B-Instruct-v1.0](upstage/SOLAR-10.7B-Instruct-v1.0)  
 - [VAGOsolutions/SauerkrautLM-SOLAR-Instruct](https://huggingface.co/VAGOsolutions/SauerkrautLM-SOLAR-Instruct)  
