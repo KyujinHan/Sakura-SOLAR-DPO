@@ -1,7 +1,7 @@
 # Sakura-SOLAR-DPO  
 <img src='./sakura.png' width=512>  
   
-**[(주)미디어그룹사람과숲과 (주)마커의 LLM 연구 컨소시엄에서 개발된 모델입니다]**
+**(주)미디어그룹사람과숲과 (주)마커의 LLM 연구 컨소시엄에서 개발된 모델입니다**
 
 **Sakura-SOLAR project;**    
 I noted that all most of things about the **Sakura-SOLAR models** which is `the global LLM Rank 1 on December, 2023`.  
