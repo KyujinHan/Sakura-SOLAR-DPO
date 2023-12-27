@@ -9,7 +9,7 @@ I hope, the open-source more and more develop!😄😄
 
 # Contents  
 - [Model Performance](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#model-performance)
-- [Training code]()
+- [Training code](https://github.com/KyujinHan/Sakura-SOLAR-DPO/tree/master?tab=readme-ov-file#training-code)
 - [Hyperparameters & Prompt](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#hyperparameters--prompt)  
 - [References](https://github.com/KyujinHan/PlatYi-34?tab=readme-ov-file#references)  
   
