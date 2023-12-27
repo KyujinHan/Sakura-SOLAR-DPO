@@ -49,7 +49,7 @@ mergekit-yaml ./config.yml ./Sakura-SOLAR [--cuda]
 ```
 ---
 ## 2. DPO
-Implement below code for dpo.
+1. Implement below code for dpo.
 ```python
 # Example)
 python DPO.py \
@@ -67,6 +67,13 @@ python DPO.py \
     --lr_scheduler 'linear' \
     --warmup_ratio 0.1 \
     --cutoff_len 4096 \
+```
+2. Merge: model + LoRA layer
+```python
+python merge.py \
+    --base_model_name_or_path kyujinpy/Sakura-SOLAR-Instruct \
+    --peft_model_path [...output_dir...] \
+    --output_dir [...output_final_dir...]
 ```
   
 # Hyperparameters & Prompt
