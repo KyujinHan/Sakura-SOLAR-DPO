@@ -164,7 +164,7 @@ def train(
     def return_prompt_and_responses(samples):
         
         return {
-            "prompt": "### User:\n" + samples["question"] + "\n\n### Assitant:\n",
+            "prompt": "### User:\n" + samples["question"] + "\n\n### Assistant:\n",
             "chosen": samples["chosen"],
             "rejected": samples["rejected"],
         }
