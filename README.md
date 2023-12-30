@@ -33,13 +33,13 @@ I hope, the open-source more and more develop!😄😄
 # Model Performance
 | Model | Average | ARC | HellaSwag | MMLU | TruthfulQA | Winogrande | GSM8K |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| **[🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct)** | **74.40** | 70.99 | 88.42 | 66.33 | 71.79 | 83.66 | 65.20 |
-| **[🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2)** | 74.17 | 71.25 | 88.52 | 66.13 | 72.16 | 83.03 | 63.91 |
+| **[🌸kyujinpy/Sakura-SOLAR-Instruct](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct)** | **74.40** | 70.99 | 88.42 | 66.33 | 71.79 | **83.66** | **65.20** |
+| **[🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v2)** | 74.17 | **71.25** | **88.52** | 66.13 | **72.16** | 83.03 | 63.91 |
 | **[🌸🐋kyujinpy/Sakura-SOLAR-Instruct-DPO-v2](https://huggingface.co/kyujinpy/Sakura-SOLAR-Instruct-DPO-v2)** | 74.14 | 70.90 | 88.41 | 66.48 | 71.86 | 83.43 | 63.76 |
-| **[🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1)**| 74.13 | 71.25 | 88.48 | 66.21 | 72.12 | 82.87 | 63.84 |
+| **[🌸🐋kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Math-Instruct-DPO-v1)**| 74.13 | **71.25** | 88.48 | 66.21 | 72.12 | 82.87 | 63.84 |
 | **[🌸🐋kyujinpy/Sakura-SOLRCA-Instruct-DPO](https://huggingface.co/kyujinpy/Sakura-SOLRCA-Instruct-DPO)**| 74.05 | 71.16 | 88.49 | 66.17 | 72.10 | 82.95 | 63.46 |
 | [SOLAR-10.7B-Instruct-v1.0](https://huggingface.co/upstage/SOLAR-10.7B-Instruct-v1.0) | 74.20 | 71.08 | 88.16 | 66.21 | 71.43 | 83.58 | 64.75 |
-| [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 72.62 | 70.22 | 87.63 | 71.16 | 64.58 | 81.37 | 60.73 |
+| [Mixtral-8x7B-Instruct-v0.1](https://huggingface.co/mistralai/Mixtral-8x7B-Instruct-v0.1) | 72.62 | 70.22 | 87.63 | **71.16** | 64.58 | 81.37 | 60.73 |
 > Follow up as [link](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard).
 
 # Training code
